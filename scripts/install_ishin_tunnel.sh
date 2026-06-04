@@ -12,7 +12,7 @@ CLUSTER_DATA_DIR="/var/log/ishin-gateway/ngrid-data"
 DASHBOARD_DATA_DIR="/var/lib/ishin-gateway"
 RUNTIME_TMP_DIR="/var/log/ishin-gateway/tmp"
 
-apt-get install -y openjdk-21-jre-headless
+apt-get install -y openjdk-25-jre-headless
 curl -fL "${PACKAGE_URL}" -o "${PACKAGE_PATH}"
 apt-get install -y "${PACKAGE_PATH}"
 
