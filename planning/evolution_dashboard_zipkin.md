@@ -38,7 +38,7 @@ Adicionar port forwarding para Dashboard nos nós ishin-gateway:
 #### [NEW] [install_zipkin.sh](file:///home/lucas/Projects/ishin-gateway/ishin-gateway-test-case/scripts/install_zipkin.sh)
 
 Script de provisioning para Zipkin:
-- Instalar OpenJDK 21 JRE (headless)
+- Instalar OpenJDK 25 JRE (headless)
 - Baixar o JAR do `openzipkin/zipkin` (release latest estável)
 - Criar systemd unit `zipkin.service`
 - Configurar para escutar em `0.0.0.0:9411`

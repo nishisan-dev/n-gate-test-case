@@ -17,7 +17,7 @@ ES_HEAP="512m"
 ES_VERSION="8.17.0"
 
 # ─── Java ────────────────────────────────────────────────────────────────────
-apt-get install -y openjdk-21-jre-headless
+apt-get install -y openjdk-25-jre-headless
 
 # ─── Elasticsearch ──────────────────────────────────────────────────────────
 
